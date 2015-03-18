@@ -3,7 +3,7 @@
 set_time_limit(120);
 
 $connection = mysql_connect('localhost', 'root', '123456');
-mysql_select_db('cloudcard');
+mysql_select_db('cloudcart');
 
 $countries = array("Bulgaria", "Germany", "France", "Russia", "Turkey");
 $firstNames = array("Ivan", "Petar", "Tihomir", "Georgi", "Dimitar", "Lachezar", "Samuil", "Cvetan", "Stefan");
