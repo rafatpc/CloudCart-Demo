@@ -4,7 +4,7 @@ set_time_limit(240);
 include './RatingCalculator.php';
 
 //Yeah... I know...
-$connection = mysql_connect('localhost', 'root', '855220');
+$connection = mysql_connect('localhost', 'root', '123456');
 mysql_select_db('cloudcart');
 
 $ratings = new RatingCalculator();
